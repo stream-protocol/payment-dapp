@@ -19,7 +19,7 @@ export default function Hero(){
               <div className="w-full space-y-6 pb-6 sm:max-w-md sm:pr-5 md:space-y-4 md:pb-0 lg:max-w-lg lg:space-y-8 lg:pr-0 xl:space-y-9">
                 <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
                   <span className="block xl:inline">Send and Receive Money </span>
-                  <span className="block xl:inline">Across World</span>
+                  <span className="block xl:inline">Around The World</span>
                 </h1>
                 <p className="mx-auto text-base text-gray-400 sm:max-w-md md:max-w-3xl lg:text-xl">
                   Powered by Solana, StreamPay helps you conveniently send and receive money in an 
@@ -41,9 +41,9 @@ export default function Hero(){
             </div>
             <div className="w-full md:w-1/2">
               <div className="h-auto w-full overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-                <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
+                <img src="https://i.imgur.com/GK0Lzbw.png" />
                 {/* <Image 
-                src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg"
+                src="https://i.imgur.com/GK0Lzbw.png"
                 alt='hero'
                 layout='fill'
                 /> */}

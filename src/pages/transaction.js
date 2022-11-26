@@ -51,7 +51,7 @@ export default function Checkout() {
         navigator.clipboard.writeText(url)
         const urlParams = {
             link: new URL(apiUrl),
-            label: "Stream Payment Platform",
+            label: "StreamPay",
             message: "Thanks for using StreamPay!",
         }
         const solanaUrl = encodeURL(urlParams)
@@ -68,7 +68,7 @@ export default function Checkout() {
             try {
                 // Check if there is any transaction for the reference
                 const signatureInfo = await findReference(connection, reference, { finality: 'confirmed' })
-                    // Validate that the transaction has the expected recipient, amount and Stream or SPL tokens
+                    // Validate that the transaction has the expected recipient, amount and SPL token
                 await validateTransfer(
                     connection,
                     signatureInfo.signature, {

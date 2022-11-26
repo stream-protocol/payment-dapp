@@ -1,4 +1,4 @@
-# StreamPay - Send and Recieve Digital Money around the world
+# StreamPay - Send and Recieve Digital Money Around The World
 
 Powered by Solana, StreamPay helps you conveniently send and recieve money in an instant without any hassle. You only need to simply connect your Wallet to get started.
 
